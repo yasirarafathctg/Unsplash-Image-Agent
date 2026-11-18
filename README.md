@@ -1,18 +1,22 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1E3A8A,100:2563EB&height=220&section=header&text=UNSPLASH%20IMAGE%20AGENT&fontSize=38&fontColor=FFFFFF&fontAlignY=38&desc=AI%20AUTOMATION%20%7C%20IMAGE%20SEARCH&descAlignY=60&descSize=16" width="100%" alt="Unsplash Image Agent" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:080F25,35:142D59,70:2457A6,100:00A6A6&height=210&section=header&text=UNSPLASH%20IMAGE%20AGENT&fontSize=38&fontColor=FFFFFF&fontAlignY=40&desc=INTELLIGENT%20IMAGE%20SEARCH%20AUTOMATION&descSize=14&descAlignY=65" width="100%" alt="Unsplash Image Agent Project Banner"/>
 
 # 🖼️ Unsplash Image Agent
 
-### Automated Image Search Workflow Powered by n8n & Unsplash API
+### Intelligent Image Search Automation with n8n & Unsplash API
 
-<img src="https://img.shields.io/badge/n8n-Workflow%20Automation-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" />
-<img src="https://img.shields.io/badge/Unsplash-API-111111?style=for-the-badge&logo=unsplash&logoColor=white" alt="Unsplash API" />
-<img src="https://img.shields.io/badge/HTTP-Request-2563EB?style=for-the-badge" alt="HTTP Request" />
-<img src="https://img.shields.io/badge/AI-Automation-0F766E?style=for-the-badge" alt="AI Automation" />
+<img src="https://img.shields.io/badge/n8n-Automation-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n"/>
+<img src="https://img.shields.io/badge/Unsplash-API-111111?style=for-the-badge&logo=unsplash&logoColor=white" alt="Unsplash"/>
+<img src="https://img.shields.io/badge/HTTP-Request-2563EB?style=for-the-badge" alt="HTTP Request"/>
+<img src="https://img.shields.io/badge/AI-Workflow-0F766E?style=for-the-badge" alt="AI Workflow"/>
 
-[Overview](#-project-overview) • [Features](#-key-features) • [Workflow](#-workflow-architecture) • [Setup](#-installation--setup) • [Demo](#-project-demo)
+[Overview](#-project-overview) •
+[Features](#-key-features) •
+[Workflow](#-workflow-architecture) •
+[Setup](#-installation--setup) •
+[Demo](#-project-demo)
 
 </div>
 
@@ -106,49 +110,56 @@ The workflow retrieves image information and URLs from the API response.
 
 ### n8n Automation Workflow
 
-<img src="./Screenshot/workflow.png" width="100%" alt="Unsplash Image Agent n8n Workflow" />
-
-*Complete workflow overview*
+[📂 Open Workflow Screenshot Folder](./Screenshot/)
 
 </div>
+
+The repository's `Screenshot` folder contains the visual reference for the automation workflow.
 
 ## 🧪 API Testing
 
-The following screenshot shows the API test URL reference used during project development.
+API testing resources are maintained separately in the dedicated `API Test` folder.
 
 <div align="center">
 
-### API Request Testing
+### API Test Resources
 
-<img src="./Screenshot/test-url.png" width="90%" alt="Unsplash API Test URL" />
+<a href="./API%20Test/">
+<img src="https://img.shields.io/badge/OPEN-API%20TEST%20FOLDER-0D9488?style=for-the-badge&logo=github&logoColor=white" alt="Open API Test Folder"/>
+</a>
 
-*API testing reference*
+<p><em>Click above to explore the API testing resources.</em></p>
 
 </div>
 
-## 📂 Repository Structure
+## 📂 Workflow Files
+
+The exported n8n workflow is available in the `Workflow` folder.
+
+<div align="center">
+
+<a href="./Workflow/">
+<img src="https://img.shields.io/badge/VIEW-WORKFLOW%20JSON-2563EB?style=for-the-badge&logo=json&logoColor=white" alt="View Workflow JSON"/>
+</a>
+
+</div>
+
+### Repository Structure
 
 ```text
 Unsplash-Image-Agent/
 │
+├── API Test/
+│   └── API testing resources
+│
 ├── Screenshot/
-│   ├── workflow.png
-│   └── test-url.png
+│   └── Workflow screenshots
 │
 ├── Workflow/
-│   └── unsplash-image-agent.json
+│   └── Exported n8n JSON
 │
 └── README.md
 ```
-
-### Repository Files
-
-| File | Description |
-|:---|:---|
-| `Screenshot/workflow.png` | n8n workflow screenshot |
-| `Screenshot/test-url.png` | API testing screenshot |
-| `Workflow/unsplash-image-agent.json` | Exported n8n workflow |
-| `README.md` | Project documentation |
 
 ## 🚀 Installation & Setup
 
@@ -201,13 +212,11 @@ Watch the project demonstration video:
 
 <a href="https://drive.google.com/file/d/15qy8bcjd1KAtG2nv5sKB9L661pqoucPs/view?usp=drive_link">
 
-<img src="https://img.shields.io/badge/▶%20WATCH%20PROJECT%20DEMO-GOOGLE%20DRIVE-2563EB?style=for-the-badge&logo=googledrive&logoColor=white" alt="Watch Project Demo" />
+<img src="https://img.shields.io/badge/▶%20WATCH%20PROJECT%20DEMO-GOOGLE%20DRIVE-2563EB?style=for-the-badge&logo=googledrive&logoColor=white" alt="Watch Project Demo"/>
 
 </a>
 
-<br/>
-
-**Unsplash Image Agent — Project Demonstration**
+<p><strong>Unsplash Image Agent — Project Demonstration</strong></p>
 
 </div>
 
@@ -223,42 +232,40 @@ Through this project, I developed practical experience in:
 - Testing API integrations.
 - Organizing and documenting GitHub projects.
 
-## 🔗 Let's Connect
+---
 
 <div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:00A6A6,50:2457A6,100:080F25&height=100&section=footer" width="100%" alt="Project Footer"/>
+
+## 🔗 LET'S CONNECT
 
 I'm open to connecting with AI enthusiasts, automation developers, and professionals interested in intelligent workflow automation.
 
 <br/>
 
 <a href="https://wa.me/8801344551939">
-<img src="https://img.shields.io/badge/WhatsApp-Connect%20With%20Me-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
+<img src="https://img.shields.io/badge/WHATSAPP-CONNECT%20WITH%20ME-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
 </a>
 
 <br/><br/>
 
 <a href="https://github.com/yasirarafathctg">
-<img src="https://img.shields.io/badge/GitHub-Follow%20Me-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+<img src="https://img.shields.io/badge/GITHUB-FOLLOW%20ME-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </a>
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/WeChat-YASIRARAFATHCTG-07C160?style=for-the-badge&logo=wechat&logoColor=white" alt="WeChat" />
+<img src="https://img.shields.io/badge/WECHAT-YASIRARAFATHCTG-07C160?style=for-the-badge&logo=wechat&logoColor=white" alt="WeChat"/>
 
 **WeChat ID:** `YASIRARAFATHCTG`
 
-</div>
-
----
-
-<div align="center">
+<br/>
 
 ### LEARN • BUILD • AUTOMATE • INNOVATE
 
 **Developed by [Yasir Arafath](https://github.com/yasirarafathctg)**
 
 AI Automation | API Integration | Intelligent Workflows
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,50:1E3A8A,100:0F172A&height=100&section=footer" width="100%" alt="Footer" />
 
 </div>
